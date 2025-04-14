@@ -62,3 +62,49 @@ nav ul li a:hover{
 .cor-rodape{
     color: rgb(0, 7, 75);
 }
+
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+        border-width: 2px;
+    }
+
+    .menu-principal {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .links li {
+        margin-left: 0;
+    }
+
+    .item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .imagens {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .borda {
+        border-width: 2px;
+    }
+
+    .rodape, .cor-rodape {
+        text-align: center;
+        font-size: 14px;
+    }
+}

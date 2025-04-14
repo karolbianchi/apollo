@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body{
     height: 100vh;
     background-image: linear-gradient(to bottom right, #00043f 0%, #000e8b 40%);
     animation: float 6s infinite alternate;
+    font-family: "Winky Sans", sans-serif;
 }
 
 nav ul{
